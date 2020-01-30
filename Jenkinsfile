@@ -27,7 +27,7 @@ pipeline {
                     script{ //填写运行代码
                         println('获取代码')
 
-                        tools.PrintMes("获取代码",'blue')
+                        tools.PrintMes("获取代码",'red')
                     }
                 }
             }
@@ -42,7 +42,7 @@ pipeline {
                             script{
                                 println('应用打包')
 
-                                tools.PrintMes("应用打包",'blue')
+                                tools.PrintMes("应用打包",'red')
                             }
                         }
                     }
@@ -55,7 +55,7 @@ pipeline {
                             script{
                                 print("代码扫描")
                               
-                              	tools.PrintMes("代码扫描",'blue')
+                              	tools.PrintMes("代码扫描",'red')
                             }
                         }
                     }
